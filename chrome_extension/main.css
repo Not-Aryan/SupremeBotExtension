@@ -1,0 +1,135 @@
+@font-face {
+    font-family: supreme;
+    src: url("fonts/Futura Medium Italic font.ttf");
+  }
+
+  @font-face {
+    font-family: supreme2;
+    src: url("fonts/futura medium bt.ttf");
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ED1C24;
+}
+
+.supreme {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 3px solid white;
+}
+
+h1 {
+    font-family: supreme;
+    font-weight: lighter;
+    color: white;
+    margin: 4px 5px 4px 10px;
+}
+
+.container {
+    background-color: #f3f3f3;
+    width: 333px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: helvetica;
+    width: 294px;
+    height: 29px;
+    margin-top: 4px;
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 5px;
+    /* padding-right: 10px; */
+    border-radius: 3px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.address {
+    width: 168px;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.unit {
+    width: 106px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.zip {
+    width: 51.9px;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.city {
+    width: 154px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+select {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    height: 41px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.state {
+    margin-left: 3px;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.cc_month {
+    margin-left: 10px;
+}
+
+.cc_month, .cc_year {
+    padding: 14px 10px 11px 10px;
+}
+
+.cvv {
+    position: relative;
+    top: -3px;
+    width: 48px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.submit {
+    border: 3px solid white;
+    background-color: #ED1C24;
+    color: white;
+    font-family: supreme2;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+

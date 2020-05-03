@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "QuickCop Supreme Bot",
+    "description": "This bot will take user input and use that to order an item on Supreme.",
+    "version": "1.0", 
+
+    "browser_action": {
+      "default_icon": "Icon.png",
+      "default_popup": "popup.html"
+    },
+
+    "background": {
+      "scripts": ["main.js"],
+      "persistent": false
+    },
+
+    "permissions": [
+      "activeTab"
+    ],
+
+    "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'"
+  }
